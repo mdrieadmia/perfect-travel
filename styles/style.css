@@ -48,13 +48,35 @@ li {
 .btn {
     padding: 15px 35px;
     background: var(--brand-color);
-    border: none;
+    border: 2px solid transparent;
     border-radius: 8px;
     font-size: 1.25rem;
     font-weight: 800;
     color: #fff;
+    transition: 0.2s all linear;
+    cursor: pointer;
 }
-
+.btn:hover {
+    background: transparent;
+    border: 2px solid var(--brand-color);
+    color: var(--brand-color);
+}
+.common_heading{
+    max-width: 640px;
+    text-align: center;
+}
+.common_heading h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+.common_heading p{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color:  #131318b3;
+    margin-top: 25px;
+}
 /* --------- Header Section -------- */
 header {
     margin: 50px 0;
@@ -123,7 +145,7 @@ header {
     max-width: 100%;
     padding: 105px 0;
     border-radius: 16px;
-    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    background: linear-gradient(180deg, #131318cc 0%, #13131800 100%);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -154,7 +176,7 @@ header {
     max-width: 800px;
     padding: 16px;
     border-radius: 8px;
-    background: rgba(255, 255, 255, 0.30);
+    background: #ffffff4d;
     text-align: center;
 }
 
@@ -176,7 +198,7 @@ header {
     border: none;
     font-size: 1rem;
     font-weight: 400;
-    color: rgba(19, 19, 24, 0.50);
+    color: #13131880;
 }
 
 .search_bar .btn {
@@ -184,3 +206,37 @@ header {
     font-size: 1rem;
     font-weight: 700;
 }
+
+/* --------- Popular Section -------- */
+#popular{
+    padding-bottom: 50px;
+}
+.popular_content{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+}
+.popular_text .common_heading{
+    text-align: start;
+    margin-top: 10px;
+}
+.popular_text_content ul{
+    margin: 24px 0 24px 30px;
+}
+.popular_text_content p,
+.popular_text_content ul li{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color:  #131318b3;
+    list-style-type: disc;
+    margin: 15px 0;
+}
+.popular_text_content .btn{
+    margin-top: 20px;
+}
+/* ---------  Section -------- */
+/* ---------  Section -------- */
+/* ---------  Section -------- */
+/* ---------  Section -------- */
+/* ---------  Section -------- */

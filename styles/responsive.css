@@ -54,11 +54,13 @@
     .banner_text h1 {
         font-size: 1.375rem;
     }
-    
+
     .banner_text p {
         font-size: 0.875rem;
         margin: 10px 0 25px 0;
     }
+
+    .search_bar .btn,
     .search_bar input,
     .search_bar select {
         width: 100%;
