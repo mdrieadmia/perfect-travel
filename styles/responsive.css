@@ -32,6 +32,22 @@
     .popular_img {
         width: 100%;
     }
+    .destination_gallery{
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .item1,
+    .item3,
+    .item5{
+        grid-column: 1 / span 1;
+    }
+    .item2,
+    .item4,
+    .item6{
+        grid-column: 2 / span 1;
+    }
+    .item7{
+        grid-column: 1 / span 2;
+    }
 }
 
 /* -------- Mobile Device -------- */
@@ -62,6 +78,9 @@
     header{
         margin: 0;
     }
+    #destination{
+        padding: 0;
+    }
     .banner_overlay {
         padding: 35px 25px;
     }
@@ -84,5 +103,11 @@
     .popular_text_content,
     .popular_img {
         width: 100%;
+    }
+    .destination_gallery{
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .gallery_item{
+        grid-column: 1 / span 1;
     }
 }
