@@ -34,10 +34,12 @@ h1, h2, h3, h4, h5, h6, p, ul, ol, li {
 header{
     margin: 50px 0;
 }
+/* --------- Navbar Section -------- */
 #menubar{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin-bottom: 50px;
 }
 .logo{
     display: flex;
@@ -69,5 +71,4 @@ header{
     font-weight: 700;
     color: var(--brand-color);
 }
-/* --------- Navbar Section -------- */
 /* --------- Banner Section -------- */
