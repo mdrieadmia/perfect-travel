@@ -12,11 +12,21 @@
         max-width: 90%;
         margin: 0 auto;
     }
+
     .newsletter_content,
     .perfect_content,
     .popular_content,
     #menubar {
         flex-direction: column;
+    }
+
+    .newsletter_img,
+    .newsletter_form,
+    .perfect_text_content,
+    .perfect_img,
+    .popular_text_content,
+    .popular_img {
+        width: 100%;
     }
 
     #menubar {
@@ -30,40 +40,40 @@
     .banner_text h1 {
         font-size: 2.25rem;
     }
-    .newsletter_img,
-    .newsletter_form,
-    .perfect_text_content,
-    .perfect_img,
-    .popular_text_content,
-    .popular_img {
-        width: 100%;
-    }
+
     .popular_text_content .common_heading,
-    .perfect_text_content .common_heading{
+    .perfect_text_content .common_heading {
         margin: 0;
     }
-    .destination_gallery{
+
+    .benifit_content,
+    .destination_gallery {
         grid-template-columns: repeat(2, 1fr);
     }
+
     .item1,
     .item3,
-    .item5{
+    .item5 {
         grid-column: 1 / span 1;
     }
+
     .item2,
     .item4,
-    .item6{
+    .item6 {
         grid-column: 2 / span 1;
     }
-    .item7{
+
+    .item7 {
         grid-column: 1 / span 2;
     }
-    .deals_item{
+
+    .deals_item {
         justify-content: center;
         padding: 100px 30px 30px 30px;
         align-items: end;
     }
-    .deals_card{
+
+    .deals_card {
         max-width: 90% !important;
         padding: 30px;
     }
@@ -76,13 +86,20 @@
         margin: 0 auto;
     }
 
-    .common_heading h2 {
-        font-size: 1.25rem;
+    .newsletter_img,
+    .newsletter_form,
+    .perfect_text_content,
+    .perfect_img,
+    .popular_text_content,
+    .popular_img,
+    .search_bar .btn,
+    .search_bar input,
+    .search_bar select,
+    .popular_text_content,
+    .popular_img {
+        width: 100%;
     }
 
-    .common_heading p {
-        font-size: .875rem;
-    }
     .newsletter_content,
     .perfect_content,
     .popular_content,
@@ -90,29 +107,34 @@
     #menubar {
         flex-direction: column;
     }
-    .newsletter_img,
-    .newsletter_form,
-    .perfect_text_content,
-    .perfect_img,
-    .popular_text_content,
-    .popular_img {
-        width: 100%;
-    }
+
     .popular_text_content .common_heading,
-    .perfect_text_content .common_heading{
+    .perfect_text_content .common_heading {
         margin: 0;
     }
+
+    .common_heading h2 {
+        font-size: 1.25rem;
+    }
+
+    .common_heading p {
+        font-size: .875rem;
+    }
+
+    header {
+        margin: 0;
+    }
+
     .main_menu>ul,
     #menubar {
         gap: 30px;
     }
-    header{
-        margin: 0;
-    }
+
     #deals,
-    #destination{
+    #destination {
         padding: 0;
     }
+
     .banner_overlay {
         padding: 35px 25px;
     }
@@ -126,33 +148,28 @@
         margin: 10px 0 25px 0;
     }
 
-    .search_bar .btn,
-    .search_bar input,
-    .search_bar select {
-        width: 100%;
-    }
-
-    .popular_text_content,
-    .popular_img {
-        width: 100%;
-    }
-    .destination_gallery{
+    .benifit_content,
+    .destination_gallery {
         grid-template-columns: repeat(1, 1fr);
     }
-    .gallery_item{
+
+    .gallery_item {
         grid-column: 1 / span 1;
     }
-    .deals_item{
+
+    .deals_item {
         min-height: 500px;
         justify-content: center;
         align-items: end;
         padding: 150px 20px 20px 20px;
     }
-    .deals_card{
+
+    .deals_card {
         max-width: 100% !important;
         padding: 30px;
     }
-    .newsletter_form{
+
+    .newsletter_form {
         padding: 50px 20px 20px 20px;
     }
 
@@ -161,23 +178,28 @@
         height: 80px;
         bottom: 7%;
     }
-    .discount_tag p{
+
+    .discount_tag p {
         font-size: 1rem;
         font-weight: 400;
         color: #fff;
         text-align: center;
         margin-top: 10px;
     }
-    .discount_tag h5{
+
+    .discount_tag h5 {
         font-size: 1.30rem;
     }
-    #footer{
+
+    #footer {
         padding: 50px 25px;
     }
-    .footer_content .logo{
+
+    .footer_content .logo {
         max-width: 205px;
     }
-    .footer_content .logo h2{
+
+    .footer_content .logo h2 {
         font-size: 1.25rem;
         text-align: left;
     }

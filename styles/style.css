@@ -259,6 +259,55 @@ header {
     border-radius: 16px;
 }
 
+/* -------- Benifit Section -------- */
+#benifit {
+    margin: 50px 0;
+}
+
+.benifit_content {
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 35px;
+}
+
+.benifit_card {
+    padding: 30px 50px 25px 20px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.2s all linear;
+}
+
+.benifit_card:hover {
+    transform: scale(1.03);
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.benifit_card .icon a {
+    font-size: 2.25rem;
+    color: var(--secondary-color);
+    margin-left: 10px;
+    transition: 0.2s all linear;
+}
+
+.benifit_card:hover .icon a {
+    color: var(--brand-color);
+}
+
+.benifit_card h2 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin: 20px 0 10px 0;
+}
+
+.benifit_card p {
+    font-size: 1rem;
+    color: var(--third-color);
+    margin: 20px 0 10px 0;
+}
+
 /* --------- Destination Section -------- */
 #destination {
     padding: 50px 0;
@@ -593,34 +642,40 @@ header {
     bottom: 11%;
     right: 1%;
 }
-.discount_tag p{
+
+.discount_tag p {
     font-size: 1.5rem;
     font-weight: 400;
     color: #fff;
     text-align: center;
     margin-top: 15px;
 }
-.discount_tag h5{
+
+.discount_tag h5 {
     font-size: 2rem;
     font-weight: 800;
     color: #fff;
     text-align: center;
     margin-top: 10px;
 }
+
 /* --------- Footer Section -------- */
-#footer{
+#footer {
     width: 100%;
     padding: 110px 50px;
     background: #1313180d;
 }
-.footer_content{
+
+.footer_content {
     text-align: center;
 }
-.footer_content .logo{
+
+.footer_content .logo {
     max-width: 315px;
     margin: 0 auto;
 }
-.footer_content p{
+
+.footer_content p {
     max-width: 750px;
     margin: 20px auto 35px auto;
     font-size: 1rem;
@@ -628,22 +683,26 @@ header {
     line-height: 1.625rem;
     color: var(--fourth-color);
 }
-.social_icons{
+
+.social_icons {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 30px;
 }
-.social_icons a{
+
+.social_icons a {
     font-size: 1.5rem;
     color: var(--primary-color);
     transition: 0.2s all linear;
 }
-.social_icons a:hover{
+
+.social_icons a:hover {
     transform: scale(1.2);
     color: var(--brand-color);
 }
-.footer_content hr{
+
+.footer_content hr {
     opacity: 30%;
     margin: 50px 0;
 }
