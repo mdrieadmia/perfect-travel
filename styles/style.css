@@ -1,0 +1,73 @@
+/* --------- Google Fonts Link -------- */
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+/* --------- Common CSS Section -------- */
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    list-style-type: none;
+    font-family: 'Mulish', sans-serif;
+}
+:root{
+    --brand-color : #FF5400;
+    --primary-color : #131318;
+    --secondary-color : #121217b3;
+    --third-color : #424247;
+    --fourth-color : #5a5a5d;
+}
+a{
+    display: inline-block;
+    text-decoration: none;
+}
+h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+.container{
+    max-width: 1170px;
+    margin: 0 auto;
+}
+/* --------- Header Section -------- */
+header{
+    margin: 50px 0;
+}
+#menubar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    gap: 15px;
+}
+.logo h2{
+    font-size: 2.25rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+.logo h2 span{
+    color: var(--brand-color);
+}
+.main_menu > ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 45px;
+}
+.main_menu > ul li a{
+    font-size: 1.125rem;
+    font-weight: 400;
+    color: var(--third-color);
+    transition: 0.2s all linear;
+}
+.main_menu > ul li a:hover{
+    font-weight: 700;
+    color: var(--brand-color);
+}
+/* --------- Navbar Section -------- */
+/* --------- Banner Section -------- */
