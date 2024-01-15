@@ -1,0 +1,53 @@
+/* -------- Large Device -------- */
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+}
+/* -------- Medium Device -------- */
+@media screen and (min-width:768px) and (max-width:991.98px) {
+    .container{
+        max-width: 90%;
+        margin: 0 auto;
+    }
+
+    #menubar{
+        flex-direction: column;
+    }
+
+    #menubar{
+        gap: 30px;
+    }
+
+}
+/* -------- Small Device -------- */
+@media screen and (min-width:576px) and (max-width:767.98px) {
+    .container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    #menubar{
+        flex-direction: column;
+    }
+
+    #menubar{
+        gap: 30px;
+    }
+}
+/* -------- Extra Small Device -------- */
+@media screen and (max-width:575.98px) {
+    .container{
+        max-width: 95%;
+        margin: 0 auto;
+    }
+    .main_menu > ul,
+    #menubar{
+        flex-direction: column;
+    }
+    .main_menu > ul,
+    #menubar{
+        gap: 30px;
+    }
+}
