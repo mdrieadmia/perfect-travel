@@ -12,7 +12,7 @@
         max-width: 90%;
         margin: 0 auto;
     }
-
+    .popular_content,
     #menubar {
         flex-direction: column;
     }
@@ -28,6 +28,10 @@
     .banner_text h1 {
         font-size: 2.25rem;
     }
+    .popular_text_content,
+    .popular_img {
+        width: 100%;
+    }
 }
 
 /* -------- Mobile Device -------- */
@@ -37,6 +41,15 @@
         margin: 0 auto;
     }
 
+    .common_heading h2 {
+        font-size: 1.25rem;
+    }
+
+    .common_heading p {
+        font-size: .875rem;
+    }
+
+    .popular_content,
     .main_menu>ul,
     #menubar {
         flex-direction: column;
@@ -46,7 +59,9 @@
     #menubar {
         gap: 30px;
     }
-
+    header{
+        margin: 0;
+    }
     .banner_overlay {
         padding: 35px 25px;
     }
@@ -63,6 +78,11 @@
     .search_bar .btn,
     .search_bar input,
     .search_bar select {
+        width: 100%;
+    }
+
+    .popular_text_content,
+    .popular_img {
         width: 100%;
     }
 }
