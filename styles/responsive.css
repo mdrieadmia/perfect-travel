@@ -171,4 +171,14 @@
     .discount_tag h5{
         font-size: 1.30rem;
     }
+    #footer{
+        padding: 50px 25px;
+    }
+    .footer_content .logo{
+        max-width: 205px;
+    }
+    .footer_content .logo h2{
+        font-size: 1.25rem;
+        text-align: left;
+    }
 }
