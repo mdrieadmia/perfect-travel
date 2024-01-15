@@ -372,6 +372,73 @@ header {
     background: rgba(233, 68, 68, 0.05);
 }
 
-/* ---------  Section -------- */
+/* --------- Deals Section -------- */
+#deals{
+    padding: 50px 0;
+}
+.deals_item{
+    max-width: 100%;
+    margin-top: 50px;
+    padding: 55px;
+    border-radius: 16px;
+    display: flex;
+    background-image: url('../images/tour.png');
+    background-size: cover !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    justify-content: end;
+}
+
+.deals_card{
+    max-width: 60%;
+    padding: 50px;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: #ffffffcc;
+    backdrop-filter: blur(2.5px);
+}
+
+.deals_card > ul {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.deals_card > ul li {
+    font-size: 1rem;
+    font-weight: 400;
+    margin-right: 20px;
+    color: var(--fourth-color);
+}
+.deals_card > ul li span{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--brand-color);
+    margin-right: 5px;
+}
+.deals_card h2{
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary-color);
+    margin: 26px 0 16px 0;
+}
+.deals_card p{
+    font-size: 1rem;
+    font-weight: 400;
+    color: var(--fourth-color);
+}
+.deals_card h3{
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: var(--brand-color);
+    margin: 16px 0 25px 0;
+}
+
+.deals_center{
+    transform: rotateY(180deg);
+}
+.deals_center .deals_card{
+    transform: rotateY(180deg);
+}
+
 /* ---------  Section -------- */
 /* ---------  Section -------- */
