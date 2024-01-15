@@ -48,6 +48,15 @@
     .item7{
         grid-column: 1 / span 2;
     }
+    .deals_item{
+        justify-content: center;
+        padding: 100px 30px 30px 30px;
+        align-items: end;
+    }
+    .deals_card{
+        max-width: 90% !important;
+        padding: 30px;
+    }
 }
 
 /* -------- Mobile Device -------- */
@@ -78,6 +87,7 @@
     header{
         margin: 0;
     }
+    #deals,
     #destination{
         padding: 0;
     }
@@ -109,5 +119,15 @@
     }
     .gallery_item{
         grid-column: 1 / span 1;
+    }
+    .deals_item{
+        min-height: 500px;
+        justify-content: center;
+        align-items: end;
+        padding: 150px 20px 20px 20px;
+    }
+    .deals_card{
+        max-width: 100% !important;
+        padding: 30px;
     }
 }
