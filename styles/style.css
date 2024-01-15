@@ -1,7 +1,8 @@
 /* --------- Google Fonts Link -------- */
 @import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+
 /* --------- Common CSS Section -------- */
-*{
+* {
     margin: 0;
     padding: 0;
     outline: 0;
@@ -10,65 +11,176 @@
     list-style-type: none;
     font-family: 'Mulish', sans-serif;
 }
-:root{
-    --brand-color : #FF5400;
-    --primary-color : #131318;
-    --secondary-color : #121217b3;
-    --third-color : #424247;
-    --fourth-color : #5a5a5d;
+
+:root {
+    --brand-color: #FF5400;
+    --primary-color: #131318;
+    --secondary-color: #121217b3;
+    --third-color: #424247;
+    --fourth-color: #5a5a5d;
 }
-a{
+
+a {
     display: inline-block;
     text-decoration: none;
 }
-h1, h2, h3, h4, h5, h6, p, ul, ol, li {
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li {
     margin: 0;
     padding: 0;
     outline: 0;
 }
-.container{
+
+.container {
     max-width: 1170px;
     margin: 0 auto;
 }
+
+.btn {
+    padding: 15px 35px;
+    background: var(--brand-color);
+    border: none;
+    border-radius: 8px;
+    font-size: 1.25rem;
+    font-weight: 800;
+    color: #fff;
+}
+
 /* --------- Header Section -------- */
-header{
+header {
     margin: 50px 0;
 }
+
 /* --------- Navbar Section -------- */
-#menubar{
+#menubar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     margin-bottom: 50px;
 }
-.logo{
+
+.logo {
     display: flex;
     justify-content: start;
     align-items: center;
     gap: 15px;
 }
-.logo h2{
+
+.logo h2 {
     font-size: 2.25rem;
     font-weight: 800;
     color: var(--primary-color);
 }
-.logo h2 span{
+
+.logo h2 span {
     color: var(--brand-color);
 }
-.main_menu > ul {
+
+.main_menu>ul {
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 45px;
 }
-.main_menu > ul li a{
+
+.main_menu>ul li a {
     font-size: 1.125rem;
     font-weight: 400;
     color: var(--third-color);
     transition: 0.2s all linear;
 }
-.main_menu > ul li a:hover{
+
+.main_menu>ul li a:hover {
     font-weight: 700;
     color: var(--brand-color);
 }
+
 /* --------- Banner Section -------- */
+#banner {
+    max-width: 100%;
+    padding-bottom: 50px;
+}
+
+.banner_content {
+    max-width: 100%;
+    border-radius: 16px;
+    background: url('../images/banner.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.banner_overlay {
+    max-width: 100%;
+    padding: 105px 0;
+    border-radius: 16px;
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner_text {
+    max-width: 675px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.banner_text h1 {
+    font-size: 4rem;
+    font-weight: 800;
+    color: #fff;
+}
+
+.banner_text p {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #fff;
+    line-height: 1.625rem;
+    margin: 25px 0 50px 0;
+}
+
+.search_bar {
+    max-width: 800px;
+    padding: 16px;
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    text-align: center;
+}
+
+.search_bar form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 25px;
+
+}
+
+.search_bar input,
+.search_bar select {
+    width: 170px;
+    padding: 15px;
+    border-radius: 8px;
+    background: #fff;
+    border: none;
+    font-size: 1rem;
+    font-weight: 400;
+    color: rgba(19, 19, 24, 0.50);
+}
+
+.search_bar .btn {
+    width: 175px;
+    font-size: 1rem;
+    font-weight: 700;
+}
