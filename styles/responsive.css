@@ -103,8 +103,7 @@
     .newsletter_content,
     .perfect_content,
     .popular_content,
-    .main_menu>ul,
-    #menubar {
+    .main_menu>ul {
         flex-direction: column;
     }
 
@@ -202,5 +201,32 @@
     .footer_content .logo h2 {
         font-size: 1.25rem;
         text-align: left;
+    }
+
+    #menubar {
+        padding: 0px 30px;
+    }
+
+    .nav_icon {
+        display: inline-block;
+        font-size: 1.8rem;
+    }
+
+    .main_menu {
+        position: absolute;
+        top: 25%;
+        left: 0;
+        width: 100%;
+        background: #fff;
+        padding-bottom: 20px;
+        display: none;
+    }
+
+    .active {
+        display: block;
+    }
+
+    .down {
+        margin-top: 290px;
     }
 }

@@ -132,6 +132,10 @@ header {
     color: var(--brand-color);
 }
 
+.nav_icon {
+    display: none;
+}
+
 /* --------- Banner Section -------- */
 #banner {
     max-width: 100%;
