@@ -363,20 +363,23 @@ header {
     border: 1px solid rgba(251, 181, 99, 0.20);
     background: rgba(251, 181, 99, 0.05);
 }
+
 .choose_card_container .card2 {
     border: 1px solid rgba(41, 206, 246, 0.20);
     background: rgba(41, 206, 246, 0.05);
 }
+
 .choose_card_container .card3 {
     border: 1px solid rgba(233, 68, 68, 0.20);
     background: rgba(233, 68, 68, 0.05);
 }
 
 /* --------- Deals Section -------- */
-#deals{
+#deals {
     padding: 50px 0;
 }
-.deals_item{
+
+.deals_item {
     max-width: 100%;
     margin-top: 50px;
     padding: 55px;
@@ -389,7 +392,7 @@ header {
     justify-content: end;
 }
 
-.deals_card{
+.deals_card {
     max-width: 60%;
     padding: 50px;
     border-radius: 16px;
@@ -398,55 +401,63 @@ header {
     backdrop-filter: blur(2.5px);
 }
 
-.deals_card > ul {
+.deals_card>ul {
     display: flex;
     flex-wrap: wrap;
     gap: 10px;
 }
-.deals_card > ul li {
+
+.deals_card>ul li {
     font-size: 1rem;
     font-weight: 400;
     margin-right: 20px;
     color: var(--fourth-color);
 }
-.deals_card > ul li span{
+
+.deals_card>ul li span {
     font-size: 1rem;
     font-weight: 400;
     color: var(--brand-color);
     margin-right: 5px;
 }
-.deals_card h2{
+
+.deals_card h2 {
     font-size: 1.5rem;
     font-weight: 800;
     color: var(--primary-color);
     margin: 26px 0 16px 0;
 }
-.deals_card p{
+
+.deals_card p {
     font-size: 1rem;
     font-weight: 400;
     color: var(--fourth-color);
 }
-.deals_card h3{
+
+.deals_card h3 {
     font-size: 1.25rem;
     font-weight: 800;
     color: var(--brand-color);
     margin: 16px 0 25px 0;
 }
 
-.deals_center{
+.deals_center {
     transform: rotateY(180deg);
 }
-.deals_center .deals_card{
+
+.deals_center .deals_card {
     transform: rotateY(180deg);
 }
-.see_all_btn{
+
+.see_all_btn {
     margin: 50px 0;
     display: flex;
     justify-content: center;
     align-items: center;
 }
+
 /* --------- Perfect Section -------- */
-#perfect{
+#perfect {
     margin: 50px 0;
 }
 
@@ -456,9 +467,10 @@ header {
     gap: 30px;
 }
 
-.perfect_text_content{
+.perfect_text_content {
     width: 45%;
 }
+
 .perfect_img {
     width: 55%;
 }
@@ -492,4 +504,108 @@ header {
     border-radius: 16px;
 }
 
+/* --------- Newsletter Section -------- */
+#newsletter {
+    margin: 50px 0;
+}
+
+.newsletter_content {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+}
+
+.newsletter_form {
+    width: 40%;
+}
+
+.newsletter_img {
+    width: 60%;
+    min-height: 425px;
+    border-radius: 16px;
+    background: url('../images/newsletter.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.newsletter_form {
+    padding: 40px;
+    background: #fff;
+    border-radius: 16px;
+    border: 1px solid #FF5400;
+}
+
+.newsletter_form h3 {
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: var(--primary-color);
+}
+
+.newsletter_form p {
+    max-width: 300px;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.625rem;
+    color: var(--fourth-color);
+    margin: 16px 0 24px 0;
+}
+
+.newsletter_form hr {
+    opacity: 40%;
+    margin-bottom: 20px;
+}
+
+.newsletter_form form input {
+    display: block;
+    width: 100%;
+    padding: 16px 20px;
+    border: none;
+    border-radius: 8px;
+    background: #1313180d;
+    margin-top: 16px;
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1313184d;
+}
+
+.newsletter_form form input::placeholder {
+    font-size: 1rem;
+    font-weight: 400;
+    color: #1313184d;
+}
+
+.newsletter_form form .btn {
+    width: 100%;
+    padding: 13px 0;
+    text-align: center;
+    margin-top: 16px;
+}
+
+.discount_tag {
+    width: 324px;
+    height: 120px;
+    border-radius: 16px;
+    background: #FF5400;
+    transform: rotate(-19.628deg);
+    position: absolute;
+    bottom: 11%;
+    right: 1%;
+}
+.discount_tag p{
+    font-size: 1.5rem;
+    font-weight: 400;
+    color: #fff;
+    text-align: center;
+    margin-top: 15px;
+}
+.discount_tag h5{
+    font-size: 2rem;
+    font-weight: 800;
+    color: #fff;
+    text-align: center;
+    margin-top: 10px;
+}
+/* ---------  Section -------- */
 /* ---------  Section -------- */
