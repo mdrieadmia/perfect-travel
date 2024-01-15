@@ -12,6 +12,7 @@
         max-width: 90%;
         margin: 0 auto;
     }
+    .perfect_content,
     .popular_content,
     #menubar {
         flex-direction: column;
@@ -28,9 +29,15 @@
     .banner_text h1 {
         font-size: 2.25rem;
     }
+    .perfect_text_content,
+    .perfect_img,
     .popular_text_content,
     .popular_img {
         width: 100%;
+    }
+    .popular_text_content .common_heading,
+    .perfect_text_content .common_heading{
+        margin: 0;
     }
     .destination_gallery{
         grid-template-columns: repeat(2, 1fr);
@@ -73,13 +80,22 @@
     .common_heading p {
         font-size: .875rem;
     }
-
+    .perfect_content,
     .popular_content,
     .main_menu>ul,
     #menubar {
         flex-direction: column;
     }
-
+    .perfect_text_content,
+    .perfect_img,
+    .popular_text_content,
+    .popular_img {
+        width: 100%;
+    }
+    .popular_text_content .common_heading,
+    .perfect_text_content .common_heading{
+        margin: 0;
+    }
     .main_menu>ul,
     #menubar {
         gap: 30px;
