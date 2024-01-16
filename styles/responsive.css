@@ -77,6 +77,9 @@
         max-width: 90% !important;
         padding: 30px;
     }
+    .perfect_img iframe{
+        min-height: 400px;
+    }
 }
 
 /* -------- Mobile Device -------- */
@@ -167,7 +170,9 @@
         max-width: 100% !important;
         padding: 30px;
     }
-
+    .perfect_img iframe{
+        min-height: 400px;
+    }
     .newsletter_form {
         padding: 50px 20px 20px 20px;
     }

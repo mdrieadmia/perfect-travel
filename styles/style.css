@@ -362,7 +362,7 @@ header {
 
 .item3 {
     grid-column: 1 / span 4;
-    background: url('../images/indonesia.png');
+    background: url('../images/srilanka.png');
 }
 
 .item4 {
@@ -572,7 +572,7 @@ header {
     margin-top: 20px;
 }
 
-.perfect_img img {
+.perfect_img iframe {
     width: 100%;
     height: 100%;
     object-fit: cover;
